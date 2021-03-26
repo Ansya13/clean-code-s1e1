@@ -31,11 +31,11 @@ body {
 }
 .wrapper {
     display: block;
-    width: 400px;
+    width: 500px;
     margin: 0 auto 0;
 }
 .task {
-    width: 248px;
+    width: 56%;
     display: inline-block;
 }
 ul {
@@ -95,11 +95,9 @@ label[for="new-task__field"] {
     margin: 0 0 20px;
 }
 #new-task__field {
-    width: 318px;
+    width: 316px;
 }
-#new-task__container > button {
-    margin-left: -4px;
-}
+
 #new-task__container > button:hover {
     color: #0fc57c;
 }
@@ -112,7 +110,6 @@ li {
 }
 li > * {
     vertical-align: middle;
-    margin-left: -4px;
 }
 li > *:first-child {
     margin-left: 0;
