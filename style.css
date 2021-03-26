@@ -29,6 +29,7 @@ body {
         text-align: center;
     }
 }
+
 .wrapper {
     display: block;
     width: 500px;
@@ -124,6 +125,11 @@ li > *:first-child {
 
 li > input[type="checkbox"] {
     margin: 0 10px;
+}
+li > input[type="checkbox"]:hover {
+    transform: scale(1.2);
+    transition: transform 200ms ease-in;
+    cursor: pointer;
 }
 li > label {
     padding-left: 10px;
