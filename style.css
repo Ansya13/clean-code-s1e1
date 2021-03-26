@@ -99,6 +99,7 @@ label[for="new-task__field"] {
 }
 #new-task__field {
     width: 316px;
+    margin-right: 19px;
 }
 
 #new-task__container > button:hover {
