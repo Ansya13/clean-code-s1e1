@@ -28,7 +28,7 @@ body {
     margin: 0 auto 0;
 }
 .task {
-    width: 56%;
+    width: 248px;
     display: inline-block;
 }
 ul {
@@ -90,6 +90,9 @@ label[for="new-task__field"] {
 #new-task__field {
     width: 318px;
 }
+p > button {
+    margin-left: -4px;
+}
 p > button:hover {
     color: #0fc57c;
 }
@@ -102,6 +105,10 @@ li {
 }
 li > * {
     vertical-align: middle;
+    margin-left: -4px;
+}
+li > *:first-child {
+    margin-left: 0;
 }
 
 li > input[type="checkbox"] {
