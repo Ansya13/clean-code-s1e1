@@ -127,10 +127,8 @@ li > label {
 li > input[type="text"] {
     width: 226px;
 }
-li > .delete-btn:hover {
-    color: #cf2323;
-}
-.delete img {
+
+.delete-btn img {
     height: 2em;
     transform: rotatez(45deg);
     transition: transform 200ms ease-in;
@@ -138,7 +136,9 @@ li > .delete-btn:hover {
 .delete-btn img:hover {
     transform: rotatez(0);
 }
-
+li > .delete-btn:hover {
+    color: #cf2323;
+}
 /* completed */
 #completed-tasks__container label {
     text-decoration: line-through;
@@ -153,6 +153,7 @@ li input[type="text"] {
 .edit-mode input[type="text"] {
     display: inline-block;
     width: 224px;
+    margin-right: 36px;
 }
 
 .edit-mode label {
