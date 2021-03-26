@@ -17,21 +17,22 @@
         />
     </head>
     <body>
-        <div class="header">
+        <section class="header">
+            <h1 class="hide">To Do App RS School</h1>
             <img src="./eisenhower-matrix.jpg" class="header__img" />
             <a
                 class="header__link"
                 href="https://goal-life.com/page/method/matrix-eisenhower"
                 >Want more details?</a
             >
-        </div>
-        <div class="wrapper">
-            <p id="new-task__container">
+        </section>
+        <section class="wrapper">
+            <div id="new-task__container">
                 <label for="new-task__field">Add Item</label>
                 <input id="new-task__field" type="text" />
                 <button>Add</button>
-            </p>
-            <h3>Todo</h3>
+            </div>
+            <h2>Todo</h2>
             <ul id="incomplete-tasks__container">
                 <li>
                     <input type="checkbox" />
@@ -74,7 +75,7 @@
                     </button>
                 </li>
             </ul>
-        </div>
+        </section>
         <script src="app.js"></script>
     </body>
 </html>

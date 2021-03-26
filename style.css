@@ -10,6 +10,13 @@ body {
     display: block;
     text-align: right;
 }
+.hide {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
 .header__img {
     width: 100%;
 }
@@ -36,7 +43,7 @@ ul {
     padding: 0px;
 }
 li,
-h3 {
+h2 {
     list-style: none;
 }
 input,
@@ -56,7 +63,7 @@ button:hover {
     color: #3a3a3a;
 }
 /* heading */
-h3,
+h2,
 label[for="new-task__field"] {
     color: #333;
     font-weight: 700;
@@ -90,10 +97,10 @@ label[for="new-task__field"] {
 #new-task__field {
     width: 318px;
 }
-p > button {
+#new-task__container > button {
     margin-left: -4px;
 }
-p > button:hover {
+#new-task__container > button:hover {
     color: #0fc57c;
 }
 
